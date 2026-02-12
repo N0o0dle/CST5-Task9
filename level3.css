@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(120, 81, 52);
+}
+
+.card {
+    border: 5px solid rgb(71, 48, 33);
+    border-radius: 30px;
+    box-shadow: 0 0 30px;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.lvl {
+    background-color: rgb(7, 121, 242);
+}
