@@ -7,4 +7,11 @@ btn.addEventListener('click', () => {
     i++;
     badge.innerText = "Level " + i;
     text.innerHTML = '<p id="CartText" class="card-text mb-5 text-muted" style="text-align: center;"><i class="bi bi-arrow-up-circle"></i>  You Leveled Up! Current Level: '+i+'</p>';
+    if(i==6){
+        text.innerHTML = '<p id="CartText" class="card-text mb-5 text-muted" style="text-align: center;"><i class="bi bi-award"></i>  Congratulations! You have reached the maximum level of 6!</p>';
+
+        btn.classList.add("disabled");
+        btn.style.pointerEvents = "none";
+        btn.innerText = "Max Level Reached";
+    }
 });
