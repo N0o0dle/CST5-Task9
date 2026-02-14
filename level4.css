@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(120, 81, 52);
+}
+
+.card {
+    border: 5px solid rgb(71, 48, 33);
+    border-radius: 30px;
+    box-shadow: 0 0 30px;
+}
+
+label {
+    display: block;
+    padding-left: 10px;
+    font-weight: 650;
+    font-size: 18px;
+}
+
+input {
+    border-radius: 15px;
+}
+
+#submitbtn {
+    display: block;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 15px;
+}
+
+hr {
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+
+.error {
+    padding-left: 5px;
+    font-weight: 600;
+    color: red;
+}
+
+.accepted {
+    padding-left: 5px;
+    font-weight: 600;
+    color: green;
+}
