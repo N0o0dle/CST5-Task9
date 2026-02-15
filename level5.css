@@ -8,16 +8,24 @@ body {
     box-shadow: 0 0 30px;
 }
 
+h4{
+    font-weight: bold;
+}
+
+b{
+    color: black;
+}
+
 .btn {
     padding: 10px;
     border-radius: 10px;
 }
 
-button{
+.operation {
     font-size: 18px;
     padding: 10px;
-    padding-right: 15px;
     padding-left: 15px;
+    padding-right: 15px;
     border-radius: 10px;
 }
 
