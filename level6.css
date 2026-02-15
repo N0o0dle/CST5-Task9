@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(120, 81, 52);
+}
+
+.card {
+    border: 5px solid rgb(71, 48, 33);
+    border-radius: 30px;
+    box-shadow: 0 0 30px;
+}
+
+b{
+    color: black;
+}
+
+.door{
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+
+.doorContainer #d1{
+    color: #ffff;
+    background-color: red;
+}
+.doorContainer #d2{
+    color: #ffff;
+    background-color: blue;
+}
+.doorContainer #d3{
+    color: #ffff;
+    background-color: rgb(155, 96, 57);
+}
+
+.result {
+    background-color: rgb(85, 84, 84);
+    color: #ffff;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.wrong {
+    color: rgb(245, 177, 177);
+    background-color: rgb(126, 52, 52);
+    border: 1px solid red;
+}
+
+.correct {
+    color: rgb(206, 255, 206);
+    background-color: rgb(56, 99, 56);
+    border: 1px solid green;
+}
+
+hr {
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 10px;
+}

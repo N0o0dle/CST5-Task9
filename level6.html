@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="level6.css">
+    <title>Level Quest</title>
+</head>
+<body>
+    <div class="container py-5" style="margin-top: 200px">
+        <div class="row justify-content-center">
+            <div class="card col-lg-6 col-md-8 col-12">
+                <div class="card-body">
+                    <span id="LevelBadge" class="lvl badge badge-info mb-4">Level 6</span>
+                    <h4 class="card-title" style="text-align: center">Conditionals: Pick the Correct Door </h4>
+                    <p id="CardText" class="card-text mb-4 text-muted" style="text-align: center;">Click a door. Only one is correct. Use <b>if/else.</b> </p>
+                    <div class="doorContainer d-flex gap-2">
+                        <button type="button" class="door w-50" id="d1"><i class="bi bi-door-closed"></i> Door 1</button>
+                        <button type="button" class="door w-50" id="d2"><i class="bi bi-door-closed"></i> Door 2</button>
+                        <button type="button" class="door w-50" id="d3"><i class="bi bi-door-closed"></i> Door 3</button>
+                    </div>
+                    <p class="result">Choose a door to see the result. </p>
+                    <hr>
+                    <div class="buttons d-flex gap-3">
+                        <a href="level5.html" class="btn btn-secondary w-50">Back</a>
+                        <a href="index.html" class="btn btn-success w-50"><i class="bi bi-arrow-clockwise"></i> Restart (Level 1)</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+      <script src="level6.js"></script>
+</body>
+</html>
